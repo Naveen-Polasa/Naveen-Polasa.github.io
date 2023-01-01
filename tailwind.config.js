@@ -5,4 +5,9 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  theme: {
+    fontFamily: {
+      body: ["Seymour One", "Montserrat"],
+    },
+  },
 };
