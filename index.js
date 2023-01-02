@@ -84,7 +84,7 @@ window.addEventListener("DOMContentLoaded", () => {
 function showProjects(data) {
   const projects = data
     .map((project) => {
-      return `<article class="w-96 h-[310px] p-2 border rounded-3xl border-gray-700 text-center ">
+      return `<article class="w-96 h-[310px] p-2 border rounded-3xl border-gray-700 text-center bg-black ">
                 <p class="text-center my-5 hover:text-yellow-500 hover:scale-110 hover:-rotate-1  duration-1000">${project.title}</p>
                 <img class="m-auto w-80 rounded-lg hover:scale-105 duration-1000"
                     src=${project.src}
@@ -110,7 +110,7 @@ function showBtns() {
 
   let finalBtns = btns
     .map((btn) => {
-      return `<button class="text-xl mb-8 mt-2 mx-4 py-1 px-3 hover:bg-green-500 rounded-lg hover:text-sky-700 duration-300 ease-linear filter-btn "  data-id=${btn}>${btn}</button>`;
+      return `<button class="text-xl mb-8 mt-2 mx-4 py-1 px-3 hover:bg-green-500 rounded-lg hover:text-sky-700 duration-300 ease-linear filter-btn  "  data-id=${btn}>${btn}</button>`;
     })
     .join(" ");
 
