@@ -86,12 +86,13 @@ function showProjects(data) {
     .map((project) => {
       return `<article class="w-96 h-[310px] p-2 border rounded-3xl border-gray-700 text-center bg-black ">
                 <p class="text-center my-5 hover:text-yellow-500 hover:scale-110 hover:-rotate-1  duration-1000">${project.title}</p>
+                <a href=${project.live} target="_blank">
                 <img class="m-auto w-80 rounded-lg hover:scale-105 duration-1000"
                     src=${project.src}
-                    alt="">
-                <a href="${project.git}"><i
-                        class="fa-brands fa-github fa-2xl hover:scale-110 hover:text-red-400 duration-500 ease-in-out m-8 px-3"></i></a>
-                <a href="${project.live}"><i
+                    alt=${project.title}></a>
+                <a href="${project.git}" target="_blank"><i
+                        class="fa-brands fa-github fa-2xl hover:scale-110 hover:text-red-400 duration-500 ease-in-out m-8 px-3" ></i></a>
+                <a href="${project.live}" target="_blank"><i
                         class="fa-solid fa-rocket fa-2xl hover:scale-110 hover:text-orange-600 duration-500 ease-in-out m-8 px-3"></i></a>
             </article>`;
     })

@@ -12,14 +12,13 @@
 </head>
 
 <body class="bg-black text-white font-body">
-    <div class=" h-[400vh] absolute " id="particles-js"> </div>
+    <div class=" h-[400vh] absolute  " id="particles-js"> </div>
     <div id="hero">
         <div
             class=" p-4 border-gray-700 border-b border-x rounded-b-full text-4xl fixed top-0 left-[12%] z-20 bg-black">
             <p class="hover:scale-110 hover:text-orange-400 duration-300 
 ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
         </div>
-        <!-- <i class="fa-solid fa-n fa-2xl mt-6 "></i> -->
         <nav
             class="flex justify-center items-center gap-x-16  list-none fixed top-0 right-0 z-20 bg-black mt-3 py-2 px-12 font-body border-y border-l rounded-l-full border-slate-800 ">
             <!-- <li class="text-lg mx-8 py-1 px-3 hover:scale-110 hover:bg-orange-300 rounded-lg hover:text-cyan-800"> about
@@ -31,7 +30,8 @@ ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
                 <a href="#blogs">#blogs</a>
             </li>
             <li class="text-lg py-1 px-3 hover:bg-orange-300 rounded-lg hover:text-cyan-800 duration-300 ease-linear">
-                #contact</li>
+                <a href="#contact">#contact</a>
+            </li>
         </nav>
         <div class=" flex items-center justify-between py-52 ">
             <!--   top-[34%]  left-[10%] -->
@@ -52,15 +52,15 @@ ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
                     </span>
                 </h1>
                 <div class="flex gap-8 my-8 pt-4">
-                    <a href="https://www.linkedin.com/in/naveen-polasa/"><i
+                    <a href="https://www.linkedin.com/in/naveen-polasa/" target="_blank"><i
                             class="fa-brands fa-linkedin fa-2xl hover:scale-110 hover:text-cyan-700 duration-300 ease-in-out"></i></a>
-                    <a href="https://github.com/Naveen-Polasa"><i
+                    <a href="https://github.com/Naveen-Polasa" target="_blank"><i
                             class="fa-brands fa-github fa-2xl hover:scale-110 hover:text-red-200 duration-300 ease-in-out"></i></a>
-                    <a href="https://twitter.com/NaveenPolasa"><i
+                    <a href="https://twitter.com/NaveenPolasa" target="_blank" target="_blank"><i
                             class="fa-brands fa-twitter fa-2xl hover:scale-110 hover:text-blue-500 duration-300 ease-in-out"></i></a>
-                    <a href="https://www.instagram.com/naveen_polasa/"><i
+                    <a href="https://www.instagram.com/naveen_polasa/" target="_blank"><i
                             class="fa-brands fa-instagram fa-2xl hover:scale-110 hover:text-red-500 duration-300 ease-in-out"></i></a>
-                    <a href="https://hashnode.com/@NaveenPolasa"><i
+                    <a href="https://hashnode.com/@NaveenPolasa" target="_blank"><i
                             class="fa-brands fa-hashnode fa-2xl hover:scale-110 hover:text-cyan-800 duration-300 ease-in-out"></i></a>
                 </div>
             </div>
@@ -132,24 +132,44 @@ ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
                 <span class="hover:text-yellow-400 hover:m-1 duration-150 ">s</span>
             </span>
         </h1>
-        <div class="blogs-container">
-            <!-- <article class="w-96 h-[310px] p-2 border rounded-3xl border-gray-700 text-center bg-black ">
-                <p class="text-center my-5 hover:text-blue-700 hover:scale-110 hover:-rotate-1  duration-1000">Arrays in
-                    javascript
-                </p>
-                <a href="https://naveenpolasa.hashnode.dev/arrays-in-javascript" target="_blank">
-                    <img class="m-auto w-80 rounded-lg hover:scale-105 duration-1000"
-                        src='https://cdn.hashnode.com/res/hashnode/image/upload/v1671346573294/FmPjCj7lF.png'
-                        alt=""></a>
-                <a class="hover:scale-110 hover:text-orange-600 duration-500 ease-in-out hover:tracking-wider "
-                    href="https://naveenpolasa.hashnode.dev/arrays-in-javascript">Visit Blog<i
-                        class="fa-solid fa-rocket fa-2xl my-8 ml-6  "></i></a>
-            </article> -->
+        <div class="grid grid-cols-3 gap-6 blogs-container"></div>
+    </div>
+    <div class=" mb-20 mx-[10%] relative " id="contact">
+        <h1 class="text-3xl my-12 text-center">
+            <span class="tracking-tighter border-b-4 border-lime-500 pb-2 ">
+                <span class="hover:text-orange-400 hover:m-1 duration-150 ">#</span>
+                <span class="hover:text-rose-500 hover:m-1 duration-150 ">C</span>
+                <span class="hover:text-teal-600 hover:m-1 duration-150 ">o</span>
+                <span class="hover:text-sky-500 hover:m-1 duration-150 ">n</span>
+                <span class="hover:text-yellow-400 hover:m-1 duration-150 ">t</span>
+                <span class="hover:text-green-600 hover:mt-1 duration-150 ">a</span>
+                <span class="hover:text-teal-600 hover:m-1 duration-150 ">c</span>
+                <span class="hover:text-sky-500 hover:m-1 duration-150 ">t</span>
+            </span>
+        </h1>
+        <div class="flex justify-center gap-8 my-8 py-4">
+            <a href="https://www.linkedin.com/in/naveen-polasa/" target="_blank"><i
+                    class="fa-brands fa-linkedin fa-3x hover:scale-110 hover:text-cyan-700 duration-300 ease-in-out"></i></a>
+            <a href="https://github.com/Naveen-Polasa" target="_blank"><i
+                    class="fa-brands fa-github fa-3x hover:scale-110 hover:text-red-200 duration-300 ease-in-out"></i></a>
+            <a href="https://twitter.com/NaveenPolasa" target="_blank"><i
+                    class="fa-brands fa-twitter fa-3x hover:scale-110 hover:text-blue-500 duration-300 ease-in-out"></i></a>
+            <a href="https://www.instagram.com/naveen_polasa/" target="_blank"><i
+                    class="fa-brands fa-instagram fa-3x hover:scale-110 hover:text-red-500 duration-300 ease-in-out"></i></a>
+            <a href="https://hashnode.com/@NaveenPolasa" target="_blank"><i
+                    class="fa-brands fa-hashnode fa-3x hover:scale-110 hover:text-cyan-800 duration-300 ease-in-out"></i></a>
         </div>
-
+        <div class="text-center">
+            <h1 class="text-xl inline text-center px-12 py-3 bg-black border rounded-3xl border-gray-700 ">Made With ❤️ by
+                <a class="hover:text-lime-300 duration-300" href="https://www.linkedin.com/in/naveen-polasa/" target="_blank">
+                    Naveen Polasa
+                </a>
+            </h1>
+        </div>
     </div>
     <script src="particles.js"></script>
     <script src="app.js"> </script>
+    <script src="./index.js"></script>
     <script src="./projects.js"> </script>
     <script src="./blogs.js"> </script>
 </body>
