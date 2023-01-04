@@ -662,6 +662,22 @@ html {
   height: 605vh;
 }
 
+.h-\[5vh\]{
+  height: 5vh;
+}
+
+.h-\[520vh\]{
+  height: 520vh;
+}
+
+.h-\[500vh\]{
+  height: 500vh;
+}
+
+.h-\[505vh\]{
+  height: 505vh;
+}
+
 .min-h-\[80vh\]{
   min-height: 80vh;
 }
@@ -1194,6 +1210,34 @@ html {
 
   .md\:h-\[405vh\]{
     height: 405vh;
+  }
+
+  .md\:h-\[305vh\]{
+    height: 305vh;
+  }
+
+  .md\:h-\[395vh\]{
+    height: 395vh;
+  }
+
+  .md\:h-\[2395vh\]{
+    height: 2395vh;
+  }
+
+  .md\:h-\[295vh\]{
+    height: 295vh;
+  }
+
+  .md\:h-\[290vh\]{
+    height: 290vh;
+  }
+
+  .md\:h-\[294vh\]{
+    height: 294vh;
+  }
+
+  .md\:h-\[293vh\]{
+    height: 293vh;
   }
 
   .md\:flex-row{
