@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body class="bg-black text-white font-body">
-    <div class=" h-[400vh] absolute  " id="particles-js"> </div>
+<body class="bg-black text-white font-body scroll-smooth">
+    <div class=" absolute h-[605vh] md:h-[405vh] lg:h-[340vh] " id="particles-js"> </div>
     <div id="hero">
         <div
             class=" p-4 border-gray-700 border-b border-x rounded-b-full text-4xl fixed top-0 left-[12%] z-20 bg-black">
@@ -20,9 +20,7 @@
 ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
         </div>
         <nav
-            class="flex justify-center items-center gap-x-16  list-none fixed top-0 right-0 z-20 bg-black mt-3 py-2 px-12 font-body border-y border-l rounded-l-full border-slate-800 ">
-            <!-- <li class="text-lg mx-8 py-1 px-3 hover:scale-110 hover:bg-orange-300 rounded-lg hover:text-cyan-800"> about
-            </li> -->
+            class="flex justify-center items-center md:gap-x-10 lg:gap-x-16  list-none fixed top-0 right-0 z-20 bg-black mt-3 py-2 px-12 font-body border-y border-l rounded-l-full border-slate-800 ">
             <li class="text-lg py-1 px-3 hover:bg-orange-300 rounded-lg hover:text-cyan-800 duration-300 ease-linear ">
                 <a href="#projects">#projects</a>
             </li>
@@ -33,12 +31,14 @@ ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
                 <a href="#contact">#contact</a>
             </li>
         </nav>
-        <div class=" flex items-center justify-between py-52 ">
-            <!--   top-[34%]  left-[10%] -->
-            <div class="ml-[10%]  z-10 ">
-                <h1 class="text-3xl my-6">Hi There,</h1>
-                <h1 class="text-4xl my-6">I'm <span class="text-teal-500 "> Naveen 🚀</span></h1>
-                <h1 class="text-4xl my-6 ">A Web
+        <div
+            class="flex flex-col md:flex-row gap-16 md:gap-5 xl:gap-8 justify-center md:items-center pt-28 pb-16 md:py-44 xl:py-52 ">
+            <div
+                class="text-center md:text-start mx-auto w-[23rem] sm:w-[26rem] xl:w-[30rem] md:ml-[7%] xl:ml-[10%] relative ">
+                <h1 class="text-xl sm:text-2xl xl:text-3xl my-6">Hi There,</h1>
+                <h1 class="text-2xl sm:text-3xl xl:text-4xl my-6">I'm <span class="text-teal-500 "> Naveen 🚀</span>
+                </h1>
+                <h1 class="text-2xl sm:text-3xl xl:text-4xl my-6 ">A Web
                     <span class="tracking-tighter border-b-2 border-yellow-200 pb-2">
                         <span class="hover:text-lime-300 hover:m-1 duration-150 ">D</span>
                         <span class="hover:text-orange-400 hover:m-1 duration-150 ">e</span>
@@ -51,7 +51,7 @@ ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
                         <span class="hover:text-sky-500 hover:m-1 duration-150 ">r</span>
                     </span>
                 </h1>
-                <div class="flex gap-8 my-8 pt-4">
+                <div class="flex justify-center md:justify-start gap-8 my-8 pt-4">
                     <a href="https://www.linkedin.com/in/naveen-polasa/" target="_blank"><i
                             class="fa-brands fa-linkedin fa-2xl hover:scale-110 hover:text-cyan-700 duration-300 ease-in-out"></i></a>
                     <a href="https://github.com/Naveen-Polasa" target="_blank"><i
@@ -64,39 +64,37 @@ ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
                             class="fa-brands fa-hashnode fa-2xl hover:scale-110 hover:text-cyan-800 duration-300 ease-in-out"></i></a>
                 </div>
             </div>
-            <!-- top-[24%]  right-[15%] -->
-            <div class="mr-[15%]  z-10">
+            <div class=" w-96  md:mr-[8%]  xl:mr-[15%]  relative mx-auto">
                 <div>
-                    <p class=" text-4xl text-center mb-12 hover:text-amber-500 hover:-rotate-3  duration-1000 ">#skills
+                    <p class=" text-4xl text-center mb-12 hover:text-amber-500 hover:-rotate-3  duration-1000 z-10">
+                        #skills
                     </p>
                 </div>
-                <div class=" grid grid-cols-3 gap-12 justify-center content-center ">
+                <div class=" grid grid-cols-3 gap-12 justify-center content-center w-80 mx-auto">
 
                     <i
-                        class="devicon-html5-plain-wordmark text-7xl  hover:text-orange-700  hover:scale-110 duration-1000  "></i>
+                        class="devicon-html5-plain-wordmark text-7xl  hover:text-orange-700  hover:scale-110 duration-1000 justify-self-center "></i>
 
                     <i
-                        class="devicon-css3-plain-wordmark text-7xl hover:text-blue-700 hover:scale-110  duration-1000"></i>
-
-                    <!-- <i class="devicon-tailwindcss-plain text-6xl hover:text-blue-700 "></i> -->
+                        class="devicon-css3-plain-wordmark text-7xl hover:text-blue-700 hover:scale-110  duration-1000 justify-self-center"></i>
 
                     <i
-                        class="devicon-tailwindcss-original-wordmark  text-7xl hover:text-blue-700 hover:scale-110  duration-1000 "></i>
+                        class="devicon-tailwindcss-original-wordmark  text-7xl hover:text-blue-700 hover:scale-110  duration-1000 justify-self-center"></i>
 
                     <i
-                        class="devicon-bootstrap-plain-wordmark  text-7xl hover:text-violet-700 hover:scale-110  duration-1000 "></i>
+                        class="devicon-bootstrap-plain-wordmark  text-7xl hover:text-violet-700 hover:scale-110  duration-1000 justify-self-center"></i>
 
                     <i
                         class="devicon-javascript-plain text-6xl hover:text-yellow-400 hover:scale-110  duration-1000 justify-self-center self-center "></i>
 
                     <i
-                        class="devicon-react-original-wordmark text-7xl hover:text-blue-600 hover:scale-110  duration-1000 "></i>
+                        class="devicon-react-original-wordmark text-7xl hover:text-blue-600 hover:scale-110  duration-1000 justify-self-center"></i>
 
                     <i
-                        class="devicon-python-plain-wordmark text-7xl hover:text-yellow-400 hover:scale-110  duration-1000"></i>
+                        class="devicon-python-plain-wordmark text-7xl hover:text-yellow-400 hover:scale-110  duration-1000 justify-self-center"></i>
 
                     <i
-                        class="devicon-git-plain-wordmark text-7xl hover:text-orange-700 hover:scale-110  duration-1000 "></i>
+                        class="devicon-git-plain-wordmark text-7xl hover:text-orange-700 hover:scale-110  duration-1000 justify-self-center"></i>
 
                     <i
                         class="devicon-vscode-plain text-6xl hover:text-blue-600 duration-1000 justify-self-center self-center "></i>
@@ -104,7 +102,7 @@ ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
             </div>
         </div>
     </div>
-    <div class=" mb-20 mx-[10%] relative " id="projects">
+    <div class=" mb-20 mx-[7%] lg:mx-[10%] relative min-h-[80vh]" id="projects">
         <h1 class="text-3xl my-8  text-center">
             <span class="tracking-tighter border-b-4 border-amber-700 pb-2">
                 <span class="hover:text-yellow-400 hover:m-1 duration-150 ">#</span>
@@ -118,10 +116,10 @@ ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
                 <span class="hover:text-sky-500 hover:m-1 duration-150 ">s</span>
             </span>
         </h1>
-        <div class="btns-container text-center"></div>
-        <div class="grid grid-cols-3 gap-6  projects-container"> </div>
+        <div class="btns-container text-center pb-4"></div>
+        <div class="flex flex-wrap gap-6 justify-center projects-container"> </div>
     </div>
-    <div class=" mb-20 mx-[10%] relative " id="blogs">
+    <div class=" mb-20 mx-[7%] lg:mx-[10%] relative " id="blogs">
         <h1 class="text-3xl my-12 text-center">
             <span class="tracking-tighter border-b-4 border-green-600 pb-2 ">
                 <span class="hover:text-orange-400 hover:m-1 duration-150 ">#</span>
@@ -132,9 +130,9 @@ ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
                 <span class="hover:text-yellow-400 hover:m-1 duration-150 ">s</span>
             </span>
         </h1>
-        <div class="grid grid-cols-3 gap-6 blogs-container"></div>
+        <div class="flex flex-wrap gap-6  justify-center blogs-container"></div>
     </div>
-    <div class=" mb-20 mx-[10%] relative " id="contact">
+    <div class=" mb-8  mx-[7%] lg:mx-[10%] relative pb-8 " id="contact">
         <h1 class="text-3xl my-12 text-center">
             <span class="tracking-tighter border-b-4 border-lime-500 pb-2 ">
                 <span class="hover:text-orange-400 hover:m-1 duration-150 ">#</span>
@@ -147,7 +145,7 @@ ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
                 <span class="hover:text-sky-500 hover:m-1 duration-150 ">t</span>
             </span>
         </h1>
-        <div class="flex justify-center gap-8 my-8 py-4">
+        <div class="flex justify-center gap-4 lg:gap-8 my-8 py-4">
             <a href="https://www.linkedin.com/in/naveen-polasa/" target="_blank"><i
                     class="fa-brands fa-linkedin fa-3x hover:scale-110 hover:text-cyan-700 duration-300 ease-in-out"></i></a>
             <a href="https://github.com/Naveen-Polasa" target="_blank"><i
@@ -160,8 +158,11 @@ ease-in-out delay-300 hover:rotate-3"><a href="#hero">N</a></p>
                     class="fa-brands fa-hashnode fa-3x hover:scale-110 hover:text-cyan-800 duration-300 ease-in-out"></i></a>
         </div>
         <div class="text-center">
-            <h1 class="text-xl inline text-center px-12 py-3 bg-black border rounded-3xl border-gray-700 ">Made With ❤️ by
-                <a class="hover:text-lime-300 duration-300" href="https://www.linkedin.com/in/naveen-polasa/" target="_blank">
+            <h1
+                class="text-xs sm:text-lg lg:text-xl inline text-center px-4 lg:px-12 py-3 bg-black border rounded-3xl border-gray-700 ">
+                Made With ❤️ by
+                <a class="hover:text-lime-300 duration-300" href="https://www.linkedin.com/in/naveen-polasa/"
+                    target="_blank">
                     Naveen Polasa
                 </a>
             </h1>
