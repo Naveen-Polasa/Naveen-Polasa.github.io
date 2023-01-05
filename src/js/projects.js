@@ -20,7 +20,7 @@ const projectsData = [
     title: "Manage Landing Page",
     category: "Tailwind-CSS",
     src: "https://user-images.githubusercontent.com/91241718/210265419-7bd03b0a-d66d-441f-bf28-72ded0ed760c.png",
-    live: "https://vs-code-clone.netlify.app/",
+    live: "https://manage-np.netlify.app/",
     git: "https://github.com/Naveen-Polasa/manage-landing-page",
   },
   {
@@ -65,11 +65,11 @@ const projectsData = [
   },
   {
     id: 8,
-    title: "Data Analytics",
+    title: "Tea Station Project",
     category: "HTML-CSS",
-    src: "https://user-images.githubusercontent.com/91241718/210266303-f264c82f-93a4-4ecc-b708-727555427656.png",
-    live: "https://data-analytics-landing-page.netlify.app/",
-    git: "https://github.com/naveen-polasa/data-analytics-landing-page",
+    src: "https://user-images.githubusercontent.com/91241718/210716474-c70b5101-19bb-469e-a676-1997069e7104.png",
+    live: "https://tea-station-ts.netlify.app/",
+    git: "https://github.com/Naveen-Polasa/tea-station-project",
   },
 ];
 
