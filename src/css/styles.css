@@ -551,10 +551,6 @@ html {
   bottom: 2rem;
 }
 
-.right-8{
-  right: 2rem;
-}
-
 .z-20{
   z-index: 20;
 }
@@ -646,8 +642,8 @@ html {
   display: none;
 }
 
-.h-\[555vh\]{
-  height: 555vh;
+.h-\[505vh\]{
+  height: 505vh;
 }
 
 .h-\[310px\]{
@@ -658,48 +654,20 @@ html {
   height: 58%;
 }
 
-.h-\[vh\]{
-  height: vh;
-}
-
-.h-\[605vh\]{
-  height: 605vh;
-}
-
-.h-\[5vh\]{
-  height: 5vh;
-}
-
-.h-\[520vh\]{
-  height: 520vh;
-}
-
-.h-\[500vh\]{
-  height: 500vh;
-}
-
-.h-\[505vh\]{
-  height: 505vh;
-}
-
 .min-h-\[80vh\]{
   min-height: 80vh;
 }
 
-.w-\[23rem\]{
-  width: 23rem;
-}
-
-.w-96{
-  width: 24rem;
+.w-\[22rem\]{
+  width: 22rem;
 }
 
 .w-80{
   width: 20rem;
 }
 
-.w-\[22rem\]{
-  width: 22rem;
+.w-96{
+  width: 24rem;
 }
 
 .list-none{
@@ -750,6 +718,14 @@ html {
   gap: 1rem;
 }
 
+.gap-24{
+  gap: 6rem;
+}
+
+.gap-20{
+  gap: 5rem;
+}
+
 .gap-y-6{
   row-gap: 1.5rem;
 }
@@ -760,10 +736,6 @@ html {
 
 .justify-self-center{
   justify-self: center;
-}
-
-.overflow-hidden{
-  overflow: hidden;
 }
 
 .rounded-lg{
@@ -810,6 +782,10 @@ html {
 
 .border-b-4{
   border-bottom-width: 4px;
+}
+
+.border-r{
+  border-right-width: 1px;
 }
 
 .border-gray-700{
@@ -909,14 +885,6 @@ html {
   padding-bottom: 2rem;
 }
 
-.pl-3{
-  padding-left: 0.75rem;
-}
-
-.pr-3{
-  padding-right: 0.75rem;
-}
-
 .text-center{
   text-align: center;
 }
@@ -983,18 +951,6 @@ html {
   color: rgb(20 184 166 / var(--tw-text-opacity));
 }
 
-.opacity-75{
-  opacity: 0.75;
-}
-
-.opacity-10{
-  opacity: 0.1;
-}
-
-.opacity-60{
-  opacity: 0.6;
-}
-
 .opacity-70{
   opacity: 0.7;
 }
@@ -1039,10 +995,6 @@ html {
   margin: 0.25rem;
 }
 
-.hover\:mt-1:hover{
-  margin-top: 0.25rem;
-}
-
 .hover\:rotate-3:hover{
   --tw-rotate: 3deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1075,24 +1027,14 @@ html {
   background-color: rgb(253 186 116 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-green-500:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-amber-500:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 158 11 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-amber-400:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 191 36 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-amber-300:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(252 211 77 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-green-500:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
 .hover\:tracking-wider:hover{
@@ -1189,6 +1131,11 @@ html {
   color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
+.hover\:text-purple-700:hover{
+  --tw-text-opacity: 1;
+  color: rgb(126 34 206 / var(--tw-text-opacity));
+}
+
 .hover\:text-orange-600:hover{
   --tw-text-opacity: 1;
   color: rgb(234 88 12 / var(--tw-text-opacity));
@@ -1207,16 +1154,6 @@ html {
 .hover\:text-sky-700:hover{
   --tw-text-opacity: 1;
   color: rgb(3 105 161 / var(--tw-text-opacity));
-}
-
-.hover\:text-green-800:hover{
-  --tw-text-opacity: 1;
-  color: rgb(22 101 52 / var(--tw-text-opacity));
-}
-
-.hover\:text-purple-700:hover{
-  --tw-text-opacity: 1;
-  color: rgb(126 34 206 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px){
@@ -1269,60 +1206,8 @@ html {
     display: none;
   }
 
-  .md\:h-\[405vh\]{
-    height: 405vh;
-  }
-
-  .md\:h-\[305vh\]{
-    height: 305vh;
-  }
-
-  .md\:h-\[395vh\]{
-    height: 395vh;
-  }
-
-  .md\:h-\[2395vh\]{
-    height: 2395vh;
-  }
-
-  .md\:h-\[295vh\]{
-    height: 295vh;
-  }
-
-  .md\:h-\[290vh\]{
-    height: 290vh;
-  }
-
   .md\:h-\[294vh\]{
     height: 294vh;
-  }
-
-  .md\:h-\[293vh\]{
-    height: 293vh;
-  }
-
-  .md\:h-\[3vh\]{
-    height: 3vh;
-  }
-
-  .md\:h-\[333vh\]{
-    height: 333vh;
-  }
-
-  .md\:h-\[355vh\]{
-    height: 355vh;
-  }
-
-  .md\:h-\[388vh\]{
-    height: 388vh;
-  }
-
-  .md\:h-\[400vh\]{
-    height: 400vh;
-  }
-
-  .md\:h-\[394vh\]{
-    height: 394vh;
   }
 
   .md\:flex-row{
@@ -1356,8 +1241,24 @@ html {
     border-bottom-left-radius: 9999px;
   }
 
+  .md\:border-l{
+    border-left-width: 1px;
+  }
+
+  .md\:border-t{
+    border-top-width: 1px;
+  }
+
   .md\:p-4{
     padding: 1rem;
+  }
+
+  .md\:p-3{
+    padding: 0.75rem;
+  }
+
+  .md\:p-3\.5{
+    padding: 0.875rem;
   }
 
   .md\:py-2{
