@@ -24,8 +24,6 @@ navBtn.addEventListener("click", (e) => {
 
 // scroll to top
 window.addEventListener('scroll', ()=>  {
-//    particles.classList.add = `h-[${window.scrollY}px]`
-//     console.log(`h-[${window.scrollY}px]`);
     if(window.scrollY > 2000) {
         up.classList.remove("hidden");
         up.classList.add("visible");

@@ -698,8 +698,8 @@ html {
   justify-content: center;
 }
 
-.gap-16{
-  gap: 4rem;
+.gap-20{
+  gap: 5rem;
 }
 
 .gap-8{
@@ -716,14 +716,6 @@ html {
 
 .gap-4{
   gap: 1rem;
-}
-
-.gap-24{
-  gap: 6rem;
-}
-
-.gap-20{
-  gap: 5rem;
 }
 
 .gap-y-6{
@@ -758,18 +750,12 @@ html {
   border-width: 1px;
 }
 
-.border-x{
-  border-left-width: 1px;
-  border-right-width: 1px;
-}
-
-.border-y{
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-}
-
 .border-b{
   border-bottom-width: 1px;
+}
+
+.border-r{
+  border-right-width: 1px;
 }
 
 .border-l{
@@ -782,10 +768,6 @@ html {
 
 .border-b-4{
   border-bottom-width: 4px;
-}
-
-.border-r{
-  border-right-width: 1px;
 }
 
 .border-gray-700{
@@ -1249,16 +1231,16 @@ html {
     border-top-width: 1px;
   }
 
-  .md\:p-4{
-    padding: 1rem;
+  .md\:p-3\.5{
+    padding: 0.875rem;
   }
 
   .md\:p-3{
     padding: 0.75rem;
   }
 
-  .md\:p-3\.5{
-    padding: 0.875rem;
+  .md\:p-4{
+    padding: 1rem;
   }
 
   .md\:py-2{
@@ -1294,6 +1276,14 @@ html {
 
   .lg\:h-\[340vh\]{
     height: 340vh;
+  }
+
+  .lg\:h-\[1600px\]{
+    height: 1600px;
+  }
+
+  .lg\:h-\[166\]{
+    height: 166;
   }
 
   .lg\:gap-8{
