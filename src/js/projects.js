@@ -1,3 +1,5 @@
+import { projectsData } from "./data.js";
+
 const projectsContainer = document.querySelector(".projects-container");
 const btnsContainer = document.querySelector(".btns-container");
 
@@ -52,7 +54,6 @@ function showBtns() {
           return project;
         }
       });
-      console.log(category);
       if (category === "All") {
         showProjects(projectsData);
       } else {

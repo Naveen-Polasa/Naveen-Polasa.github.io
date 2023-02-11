@@ -1,4 +1,4 @@
-const projectsData = [
+export const projectsData = [
   {
     id: 1,
     title: "VS Code UI Clone",
