@@ -3,9 +3,7 @@ const navElements = document.querySelectorAll("li");
 const bars = document.querySelector(".fa-bars");
 const xmark = document.querySelector(".fa-xmark");
 const up = document.querySelector(".fa-circle-up ");
-
 const particles = document.querySelector(".particles");
-
 
 // navbar
 navBtn.addEventListener("click", (e) => {
@@ -23,12 +21,11 @@ navBtn.addEventListener("click", (e) => {
 });
 
 // scroll to top
-window.addEventListener('scroll', ()=>  {
-    if(window.scrollY > 2000) {
-        up.classList.remove("hidden");
-        up.classList.add("visible");
-    }
-    else{
-        up.classList.add('hidden')
-    }
-})
+window.addEventListener("scroll", () => {
+  if (window.scrollY > (particles.scrollHeight / 100) * 66) {
+    up.classList.remove("hidden");
+    up.classList.add("visible");
+  } else {
+    up.classList.add("hidden");
+  }
+});

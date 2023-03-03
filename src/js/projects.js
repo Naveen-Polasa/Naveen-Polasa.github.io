@@ -4,7 +4,12 @@ const projectsContainer = document.querySelector(".projects-container");
 const btnsContainer = document.querySelector(".btns-container");
 
 window.addEventListener("DOMContentLoaded", () => {
-  showProjects(projectsData);
+  const projectsCategory = projectsData.filter((project) => {
+    if (project.category === "ReactJS") {
+      return project;
+    }
+  });
+  showProjects(projectsCategory);
   showBtns();
 });
 
@@ -12,9 +17,9 @@ function showProjects(data) {
   const projects = data
     .map((project) => {
       return `<article class="w-96 h-[310px] p-2 border rounded-3xl border-gray-700 text-center  bg-black ">
-                <p class="text-center my-5 hover:text-yellow-500 hover:scale-110 hover:-rotate-1  duration-1000">${project.title}</p>
+                <p class="text-center my-5 hover:text-yellow-500 hover:scale-110  duration-1000">${project.title}</p>
                 <a href=${project.live} target="_blank">
-                <img class="m-auto w-80 rounded-lg hover:scale-105 duration-1000"
+                <img class="m-auto w-80 rounded-lg hover:scale-105 duration-1000  border border-slate-800"
                     src=${project.src}
                     alt=${project.title}></a>
                 <a href="${project.git}" target="_blank"><i
@@ -29,7 +34,6 @@ function showProjects(data) {
 
 function showBtns() {
   let btns = new Set([
-    "All",
     ...projectsData.map((project) => {
       return project.category;
     }),
@@ -38,7 +42,7 @@ function showBtns() {
 
   let finalBtns = btns
     .map((btn) => {
-      return `<button class="text-xl mb-4 mt-2 mx-4 py-1 px-3 hover:bg-green-500 rounded-lg hover:text-sky-700 duration-300 ease-linear filter-btn  "  data-id=${btn}>${btn}</button>`;
+      return `<button class="text-xl mb-4 mt-2 mx-4 py-1 px-3 hover:bg-green-500 rounded-lg hover:text-sky-700 duration-300 ease-linear filter-btn border border-slate-800"  data-id=${btn}>${btn}</button>`;
     })
     .join(" ");
 
@@ -54,11 +58,7 @@ function showBtns() {
           return project;
         }
       });
-      if (category === "All") {
-        showProjects(projectsData);
-      } else {
         showProjects(projectsCategory);
-      }
     });
   });
 }
