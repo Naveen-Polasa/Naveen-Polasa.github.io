@@ -1,6 +1,14 @@
 export const projectsData = [
   {
     id: 1,
+    title: "Music Streaming Platform",
+    category: "ReactJS",
+    src: "https://user-images.githubusercontent.com/91241718/224916172-28869690-d8b4-47c7-b018-e899ef2d08fd.png",
+    live: "https://hear-it.netlify.app/",
+    git: "https://github.com/naveen-polasa/hear-it",
+  },
+  {
+    id: 2,
     title: "AmazeCart Ecommerce",
     category: "ReactJS",
     src: "https://user-images.githubusercontent.com/91241718/222688959-943ea152-012a-4952-bc16-5289920e6195.png",
@@ -8,7 +16,7 @@ export const projectsData = [
     git: "https://github.com/naveen-polasa/amazecart-ecommerce",
   },
   {
-    id: 2,
+    id: 3,
     title: "Pokemon Info",
     category: "ReactJS",
     src: "https://user-images.githubusercontent.com/91241718/222688904-59adfdd0-80d0-41a5-b604-39dff514c5c9.png",
@@ -16,7 +24,7 @@ export const projectsData = [
     git: "https://github.com/naveen-polasa/pokemon-info",
   },
   {
-    id: 3,
+    id: 4,
     title: "Get Movies",
     category: "ReactJS",
     src: "https://user-images.githubusercontent.com/91241718/222688911-821a8585-539c-4c89-8ea5-ff69164b84bf.png",
@@ -24,7 +32,7 @@ export const projectsData = [
     git: "https://github.com/naveen-polasa/get-movies",
   },
   {
-    id: 4,
+    id: 5,
     title: "Get Meals",
     category: "ReactJS",
     src: "https://user-images.githubusercontent.com/91241718/222688889-3af15ceb-cda9-4963-9dd2-a81c4b420c4d.png",
@@ -32,20 +40,12 @@ export const projectsData = [
     git: "https://github.com/naveen-polasa/get-meals",
   },
   {
-    id: 5,
+    id: 6,
     title: "Rock Paper Scissors",
     category: "ReactJS",
     src: "https://user-images.githubusercontent.com/91241718/222688882-b081968a-e474-4769-944f-dea5cfeaaccb.png",
     live: "https://rock-paper-scissors-np.vercel.app/",
     git: "https://github.com/naveen-polasa/rock-paper-scissors",
-  },
-  {
-    id: 6,
-    title: "Task Manager",
-    category: "ReactJS",
-    src: "https://user-images.githubusercontent.com/91241718/222688857-c81734c2-3c55-4bbb-8a33-e35b58e6ad2b.png",
-    live: "https://task-manager-np.vercel.app/",
-    git: "https://github.com/naveen-polasa/task-manager",
   },
   {
     id: 7,
@@ -81,19 +81,19 @@ export const projectsData = [
   },
   {
     id: 11,
+    title: "Manage Landing Page",
+    category: "Tailwind-CSS",
+    src: "https://user-images.githubusercontent.com/91241718/210265419-7bd03b0a-d66d-441f-bf28-72ded0ed760c.png",
+    live: "https://manage-np.netlify.app/",
+    git: "https://github.com/Naveen-Polasa/manage-landing-page",
+  },
+  {
+    id: 12,
     title: "VS Code UI Clone",
     category: "Tailwind-CSS",
     src: "https://user-images.githubusercontent.com/91241718/210261634-18b7aa8c-c2e2-4be0-8baa-25caf024bd19.png",
     live: "https://vs-code-clone.netlify.app/",
     git: "https://github.com/Naveen-Polasa/vs-code-clone",
-  },
-  {
-    id: 12,
-    title: "Netflix UI Clone",
-    category: "Tailwind-CSS",
-    src: "https://user-images.githubusercontent.com/91241718/210265194-02c91f03-ad8e-4867-a6eb-038a25c351ca.png",
-    live: "https://n-clone-np.netlify.app/",
-    git: "https://github.com/Naveen-Polasa/netflix-clone",
   },
   {
     id: 13,
@@ -105,11 +105,11 @@ export const projectsData = [
   },
   {
     id: 14,
-    title: "Manage Landing Page",
+    title: "Netflix UI Clone",
     category: "Tailwind-CSS",
-    src: "https://user-images.githubusercontent.com/91241718/210265419-7bd03b0a-d66d-441f-bf28-72ded0ed760c.png",
-    live: "https://manage-np.netlify.app/",
-    git: "https://github.com/Naveen-Polasa/manage-landing-page",
+    src: "https://user-images.githubusercontent.com/91241718/210265194-02c91f03-ad8e-4867-a6eb-038a25c351ca.png",
+    live: "https://n-clone-np.netlify.app/",
+    git: "https://github.com/Naveen-Polasa/netflix-clone",
   },
   {
     id: 15,
@@ -160,3 +160,13 @@ export const projectsData = [
     git: "https://github.com/Naveen-Polasa/tea-station-project",
   },
 ];
+
+
+//  {
+//     id: 6,
+//     title: "Task Manager",
+//     category: "ReactJS",
+//     src: "https://user-images.githubusercontent.com/91241718/222688857-c81734c2-3c55-4bbb-8a33-e35b58e6ad2b.png",
+//     live: "https://task-manager-np.vercel.app/",
+//     git: "https://github.com/naveen-polasa/task-manager",
+//   },

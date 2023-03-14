@@ -20,6 +20,17 @@ navBtn.addEventListener("click", (e) => {
   });
 });
 
+navElements.forEach((li) =>
+  li.addEventListener("click", () => {
+    navElements.forEach((li) => {
+      li.classList.toggle("hidden");
+      bars.classList.remove("hidden");
+      xmark.classList.add("hidden");
+    });
+
+  })
+);
+
 // scroll to top
 window.addEventListener("scroll", () => {
   if (window.scrollY > (particles.scrollHeight / 100) * 66) {
