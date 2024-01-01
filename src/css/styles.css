@@ -1138,6 +1138,11 @@ html {
   color: rgb(3 105 161 / var(--tw-text-opacity));
 }
 
+.hover\:text-blue-400:hover{
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px){
   .sm\:w-\[26rem\]{
     width: 26rem;
